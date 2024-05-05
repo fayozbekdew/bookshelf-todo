@@ -1,0 +1,14 @@
+html,
+body {
+  height: 100%;
+  user-select: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden !important;
+  background: #fff;
+  /* color: aliceblue; */
+}
