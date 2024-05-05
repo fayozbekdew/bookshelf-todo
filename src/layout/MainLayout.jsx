@@ -4,12 +4,12 @@ import { Navbar } from "../sections";
 //sections
 const MainLayout = () => {
   return (
-    <>
+    <div>
       <Navbar />
       <main>
         <Outlet />
       </main>
-    </>
+    </div>
   );
 };
 

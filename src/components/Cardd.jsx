@@ -23,7 +23,8 @@ export default function Cardd({value}) {
   return (
     <Card sx={{ width: 320 }}>
       <div>
-        <Typography level="title-lg">{name}</Typography>
+        <Typography level="title-lg">Name: {name}</Typography>
+        <Typography level="title-lg">Autor: </Typography>
         <IconButton
           onClick={ () => addToFavorite(value)}
           aria-label="bookmark Bahamas Islands"
